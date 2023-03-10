@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora de regla de tres</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Calculadora de regla de tres</h1>
+        <h2>Introduce los valores en las casillas correspondientes:</h2>
+      </header>
+      <form id="formulario">
+        <div>
+          <label for="valor1">Valor 1:</label>
+          <input type="text" id="valor1" name="valor1">
+        </div>
+        <div>
+          <label for="valor2">Valor 2:</label>
+          <input type="text" id="valor2" name="valor2">
+        </div>
+        <div>
+          <label for="valor3">Valor 3:</label>
+          <input type="text" id="valor3" name="valor3">
+        </div>
+        <button type="submit" id="calcular">Calcular</button>
+      </form>
+      <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
